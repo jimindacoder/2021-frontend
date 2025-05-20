@@ -14,6 +14,7 @@ import UpdateDespatchAdvice from './UpdateDespatchAdvice';
 import Inventory from './Inventory';
 import Status from './Status';
 import Delete from './Delete';
+import Report from './Report';
 
 function Pages() {
   const [token, setToken] = useState(null);
@@ -47,6 +48,7 @@ function Pages() {
         <Route path="/despatchAdvice/product" element={<Inventory token={token}/>} />
         <Route path="/despatchAdvice/update/status" element={<Status token={token}/>} />
         <Route path="/despatchAdvice/delete" element={<Delete token={token}/>} />
+        <Route path="/despatchAdvice/report" element={<Report token={token}/>} />
       </Route>
     </Routes>
 </>

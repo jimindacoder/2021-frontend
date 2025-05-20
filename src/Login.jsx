@@ -46,7 +46,7 @@ function Login({ successLoginRegister, token }) {
     <>
     <div style={{backgroundColor: '#1a1a2e', minHeight: '100vh', padding: '100px'}}>
       <Container className="text-center mb-5">
-        <h1 style={{fontSize: '4rem', color: '#f1fafb'}}><strong>IOS Despatch Advice</strong></h1>
+        <h1 style={{fontSize: '4rem', color: '#f1fafb'}}><strong>Shiplink - Smart Despatch</strong></h1>
       </Container>
 
       <Row className="justify-content-center">
