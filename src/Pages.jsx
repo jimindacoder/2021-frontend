@@ -12,6 +12,7 @@ import GetAllAdvices from './AllAdvice';
 import FilterDespatchAdvice from './FilterDespatchAdvice';
 import UpdateDespatchAdvice from './UpdateDespatchAdvice';
 import Inventory from './Inventory';
+import Status from './Status';
 
 function Pages() {
   const [token, setToken] = useState(null);
@@ -43,6 +44,7 @@ function Pages() {
         <Route path="/despatchAdvice/filter" element={<FilterDespatchAdvice token={token}/>} />
         <Route path="/despatchAdvice/update" element={<UpdateDespatchAdvice token={token}/>} />
         <Route path="/despatchAdvice/product" element={<Inventory token={token}/>} />
+        <Route path="/despatchAdvice/update/status" element={<Status token={token}/>} />
       </Route>
     </Routes>
 </>
