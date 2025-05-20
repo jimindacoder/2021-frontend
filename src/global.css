@@ -1,0 +1,18 @@
+.btn-custom {
+    background-color: #1a1a2e;
+    border-color: #1a1a2e;
+    color: #f1fafb;
+  }
+  
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom:visited {
+    background-color: #39395c;
+    border-color: #39395c;
+    box-shadow: none;
+    outline: none;
+}
+.btn-custom:focus-visible {
+    outline: none;
+}
