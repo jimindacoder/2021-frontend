@@ -23,6 +23,7 @@ function Layout() {
 								<Nav.Link onClick={() => navigate('/despatchAdvice/list')}>All Advices</Nav.Link>
 								<Nav.Link onClick={() => navigate('/despatchAdvice/update/status')}>Status</Nav.Link>
 								<Nav.Link onClick={() => navigate('/despatchAdvice/product')}>Inventory</Nav.Link>
+								<Nav.Link onClick={() => navigate('/despatchAdvice/delete')}>Delete</Nav.Link>
 							</Nav>
 							<Navbar.Text className='ms-auto'>
 								Signed in as: <a href="#login">{name || 'guest'}</a>
